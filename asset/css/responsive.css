@@ -3,5 +3,27 @@
   
 }
 @media (max-width:740px){
-  
+  main{
+    margin-top: 43px;
+  }
+  .nav-header{
+    height: 60px;
+  }
+  .logo-header>img{
+    height: 60px;
+    width: 60px;
+  }
+  .nav-1,.nav-2{
+    font-size: 18px;
+  }
+  .list-wraper{
+    grid-template-columns: 1fr;
+    
+  }
+  .item-list{
+    max-width: 350px;
+    padding: 26px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
